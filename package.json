@@ -1,0 +1,19 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "tariqnew",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server",
+    "dev": "nodemon  server"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
